@@ -7,7 +7,7 @@ function fetchProducts() {
         }
         return response.json();
       })
-      .then((dat) => {
+      .then((data) => {
         resolve(data);
       }).catch((error) => {
         reject()
