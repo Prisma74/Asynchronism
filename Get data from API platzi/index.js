@@ -9,7 +9,7 @@ function fetchProducts() {
       })
       .then((data) => {
         resolve(data);
-      }).catch((erro) => {
+      }).catch((error) => {
         reject()
       })
   });
