@@ -8,7 +8,7 @@ function fetchProducts() {
         return response.json();
       })
       .then((data) => {
-        resolve(data);
+        resolve(dat);
       }).catch((error) => {
         reject()
       })
